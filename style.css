@@ -3,6 +3,10 @@ h1 {
   margin-bottom: 30px;
 }
 
+a:hover {
+  color: blue;
+}
+
 .container {
   display: grid;
   grid-template-columns: minmax(200px, auto) 1fr;
