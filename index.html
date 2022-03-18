@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FCC - Technical Documentation Page</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <header><h1>HTML & CSS Documentation</h1></header>
+            <a href="#introduction">Introduction</a>
+            <a href="#prerequisites">Prerequisites</a>
+            <a href="#html-and-css">HTML & CSS</a>
+            <a href="#hello-world">Hello World</a>
+            <a href="#html-basics">HTML Basics</a>
+            <a href="#css-basics">CSS Basics</a>
+            <a href="#applied-visual-design">Applied Visual Design</a>
+            <a href="#responsive-web-design-principles">Responsive Web Design Principles</a>
+            <a href="#css-flexbox">CSS Flexbox</a>
+            <a href="#css-frameworks">CSS Frameworks</a>
+            <a href="#references">References</a>
+        </nav>
+        
+        <main id="#main-doc">
+            <section id="introduction" class="main-section">
+                <header>Introduction</header>
+                <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of
+                web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS)
+                or functionality/behavior (JavaScript).</p>
+                <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or
+                XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on
+                paper, in speech, or on other media.</p>
+                    <p>HTML Example:<code> Hello World!</code></p>
+                    <p>CSS Example:<code> .hi {font-size: 32px}</code></p>
+                </ul>
+            </section>
+
+            <section id="prerequisites" class="main-section">
+                <header>Prerequisites</header>
+                <p>Before diving too deep into learning HTML and CSS though, I'd definitely recommend installing basic software such as text editor like Visual Studio Code so you can code along in a work-ready enviromnent with the necessary tools and also consider adding the Live-Server extension so you can visually watch your websites change before your eyes as you add in your HTML and CSS!</p>
+                <ul>
+                    <li>Code editors such as Visual Studio Code & GitHub can help provide the tools you need to get started!</li>
+                    <li>Don't forget to follow along on freeCodeCamp and practice in real time what you're learning!</li>
+                </ul>
+            </section>
+
+            <section id="html-and-css" class="main-section">
+                <header>HTML & CSS</header>
+                <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites.
+                Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other
+                people, you become an active participant in the World Wide Web.</p>
+                <p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications.
+                Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of the
+                latest recommendations. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an official
+                version.</p>
+            </section>
+
+            <section id="hello-world" class="main-section">
+                <header>Hello World</header>
+                <p>To get started with HTML, open up your text editor of choice and create a new file ending in '.html'. Type:<code> Hello World</code></p>
+            </section>
+
+            <section id="html-basics" class="main-section">
+                <header>HTML Basics</header>
+                <p>HTML uses "markup" to annotate text, images, and other content for structurizing what we see in a web browser. HTML markup includes special "elements" such as head, title, body, header, footer, article, div, img, and many, many more. </p>
+            </section>
+
+            <section id="css-basics" class="main-section">
+                <header>CSS Basics</header>
+                <p>CSS uses HTML elements to "attach to" and then stylizes them by changing their color, shape, sizing, padding, margin and even animations! With the two of them together, we can create some beautiful, animated and well structured websites, albeit a bit lacking on user interactivity (we'll get to more on that in the JavaScript section). Some examples of CSS in action look like:</p>
+                <p>
+                    <code>.body {background-color: lightgray}</code>
+                    <code>.container {display: flex}</code>
+                    <code>.btn {margin: 1rem}</code>
+                </p>
+            </section>
+
+            <section id="applied-visual-design" class="main-section">
+                <header>Applied Visual Design</header>
+                <p>Taking the time to learn proper visual design is absolutely essential. With it you'll know how to combine typography, color theory, graphics, animations, page layout and more to help bring your website's message to life.</p>
+            </section>
+
+            <section id="responsive-web-design-principles" class="main-section">
+                <header>Responsive Web Design Principles</header>
+                <p>With so many devices our there that come in all various shapes and sizes it's more important than ever to have a responsive website that can response to different screen sizes, orientations and resolutions. For example, look at these 3 devices and their resolutions below:</p>
+                <ul>
+                    <li>iPhone 13 Pro Max: 2778 x 1284</li>
+                    <li>4k display monitor: 3840 x 2160</li>
+                    <li>iPad Mini 2021: 2266 x 1488 </li>
+                </ul>
+            </section>
+
+            <section id="css-flexbox" class="main-section">
+                <header>CSS Flexbox</header>
+                <p>CSS Flexbox is a powerful, well-supported layout method that was introduced with the latest version of CSS, CSS3. It makes it easier than ever to center elements on the page and create a dynamic user interface that shrinks and expands automatically.</p>
+            </section>
+
+            <section id="css-frameworks" class="main-section">
+                <header>CSS Frameworks</header>
+                <p>After you've spent some time learning the basics of HTML & CSS, you've learned Flexbox it's time to move onto a CSS Framework. With so many to choose from it can be daunting at first, but I'd recommend Bootstrap for beginners as that's the most popular framework and is quite user friendly. Think of frameworks as a toolbox of various items. The way a construction worker might not use every tool in his toolkit for one specific job, but might need it later for a different job is how I think about using these frameworks. Also I do keep in mind that while things like changing colors to be brand specific are great, many developers much more experienced than myself have figured out the "optimal" line-height, padding sizes, font-sizes, etc., and it's best to learn these universal truths before bending them as you see fit, but of course, your journey is your own. Some examples of CSS Frameworks are:</p>
+                <ul>
+                    <li><a href="https://getbootstrap.com" target="_blank">Bootstrap: Build fast, responsive sites with Bootstrap</a></li>
+                    <li><a href="https://tailwindcss.com" target="_blank">TailwindCSS: Rapidly build modern websites without ever leaving your HTML.</a></li>
+                    <li><a href="https://bulma.io" target="_blank">Bulma: The modern CSS framework that just works.</a></li>
+                </ul>
+            </section>
+
+            <section id="references" class="main-section">
+                <header>References</header>
+                <p>All documentation was used from our friends over at <a href="http://freecodecamp.org"p>freeCodeCamp.org </a>and <a href="https://developer.mozilla.org/en-US/">MDN</a>
+            </section>
+        </main>    
+    </div>        
+</body>
+</html>
